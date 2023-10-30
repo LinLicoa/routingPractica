@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #6b1685; /* Morado */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .navbar .item {
+    text-align: center;
+    min-width: 10%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar .item:hover {
+    color: #000;
+  }
+
+  .navbar .item:hover {
+    background-color: #fff;
+    color: #6b1685; /* Morado */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
